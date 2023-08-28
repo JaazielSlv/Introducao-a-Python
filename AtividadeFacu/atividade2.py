@@ -4,4 +4,4 @@ v1 = float(input("Primerio valor: "))
 v2 = float(input("Segundo valor: "))
 
 soma = v1 + v2
-print("Resultado", soma)
+print("Resultado {}".format(soma))
