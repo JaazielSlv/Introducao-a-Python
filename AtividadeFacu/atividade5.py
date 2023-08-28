@@ -7,4 +7,4 @@ vl = float(input("Valor por Hora Trabalhada: "))
 salario = vl * h 
 
 print("Numero:", d)
-print("salario:",salario)
+print("salario: U$ {:.2f}".format(salario))
