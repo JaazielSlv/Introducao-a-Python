@@ -5,4 +5,4 @@ c = float(input("combustível gasto: "))
 
 consumo = d / c
 
-print("Consumo: ", consumo, "km/1")
+print("{:.3f} km/l".format(consumo))
